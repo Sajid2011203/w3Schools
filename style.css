@@ -1,0 +1,1062 @@
+@font-face {
+  font-family: "Source Sans Pro";
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  width: 100%;
+  height: 100vh;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  margin: 0px 1.5rem;
+  padding: 10px;
+}
+
+.nav-list ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.nav-list>ul>li {
+  float: left;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  padding: 1.5rem 10px;
+}
+
+.nav-list ul li a:hover {
+  background-color: rgb(4, 170, 109);
+  color: rgb(255, 255, 255);
+}
+
+.left-side {
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0rem;
+}
+
+.left-side .pro-site a,
+.web-site a {
+  text-decoration: none;
+  padding: 14px 30px;
+  border-radius: 2rem;
+}
+
+.pro-site a {
+  background-color: #282A35;
+  color: white;
+}
+
+.pro-site a:hover {
+  background-color: gray;
+}
+
+.web-site a {
+  background-color: rgb(247, 229, 126);
+}
+
+.web-site a:hover {
+  background-color: rgb(241, 216, 74);
+}
+
+.left-side .pro-site span {
+  border: 1pt solid black;
+  padding: 2px 4px;
+  border-radius: 1rem;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.left-side .pro-site span {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.get-certified a,
+.login-btn a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.get-certified a {
+  background-color: rgb(255, 192, 199);
+  padding: 16px 23px;
+}
+
+.get-certified a:hover {
+  background-color: rgb(249, 173, 182);
+}
+
+.login-btn a {
+  background-color: rgb(4, 170, 109);
+  padding: 15px 44px;
+  color: rgb(255, 255, 255);
+}
+
+.login-btn a:hover {
+  background-color: rgb(5, 151, 98);
+}
+
+.fa-solid {
+  cursor: pointer;
+}
+
+.fa-solid:hover {
+  color: rgb(4, 170, 109);
+}
+
+.center-content {
+  width: 100%;
+  background-color: rgb(40, 42, 53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 2rem;
+}
+
+.item {
+  margin: 1rem;
+}
+
+.h1 {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.title {
+  color: rgb(255, 192, 192);
+  font-size: 23px;
+  margin-top: 2rem;
+}
+
+.search-item input {
+  width: 500px;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  outline-style: none;
+  font-size: 17px;
+}
+
+.search-item {
+  position: relative;
+}
+
+.where-to a {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+.where-to a:hover {
+  color: rgb(4, 170, 109);
+}
+
+.search {
+  width: 6rem;
+  height: 48px;
+  text-align: center;
+  border-radius: 0px 2rem 2rem 0px;
+  background-color: rgb(4, 170, 109);
+  color: white;
+  line-height: 55px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+.search:hover {
+  background-color: rgb(7, 120, 79);
+  color: rgb(255, 255, 255);
+}
+
+.HTML-section {
+  width: 100%;
+  background-color: rgb(217, 238, 225);
+  margin-top: -1%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.html-section-left-side {
+  width: 50%;
+  margin: auto;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.html-section-left-side h2 {
+  font-size: 100px;
+  margin: 3rem 0px;
+}
+
+.learn-html a {
+  width: 15rem;
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.html a {
+  background-color: rgb(4, 170, 109);
+  color: rgb(255, 255, 255);
+}
+
+.html a:hover {
+  background-color: rgb(4, 133, 86);
+}
+
+.video-tutorials a {
+  background-color: rgb(255, 240, 128);
+  color: black;
+}
+
+.video-tutorials a:hover {
+  background-color: rgb(231, 217, 116);
+}
+
+.html-reference a {
+  background-color: rgb(75, 79, 98);
+  color: white;
+}
+
+.html-reference a:hover {
+  background-color: rgb(28, 29, 38);
+}
+
+.buy-certificate a {
+  background-color: rgb(255, 192, 192);
+  color: black;
+}
+
+.buy-certificate a:hover {
+  background-color: rgb(195, 145, 145);
+}
+
+.html-right-section {
+  width: 50%;
+  height: 61%;
+  box-shadow: 0px 0px 16px -6px;
+  background-color: rgb(231, 233, 235);
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 15px;
+}
+
+.output-html {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border-left: 5px solid rgb(4, 170, 109);
+  font-weight: lighter;
+}
+
+.html-right-section a {
+  padding: 10px 1rem;
+  width: 10rem;
+  background-color: rgb(4, 170, 109);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 2rem;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.html-right-section a:hover {
+  background-color: rgb(7, 120, 79);
+}
+
+.symbol {
+  color: rgb(8, 36, 215);
+}
+
+.code {
+  color: rgb(165, 42, 42);
+}
+
+.CSS-section {
+  width: 100%;
+  background-color: rgb(255, 244, 163);
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-code {
+  color: rgb(179, 75, 70);
+}
+
+.css-property {
+  color: red;
+}
+
+.css-value {
+  color: rgb(8, 36, 215);
+}
+
+.javaScript-section {
+  width: 100%;
+  background-color: rgb(40, 42, 53);
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.javaScript {
+  color: rgb(255, 255, 255);
+}
+
+.javaScript-section .html-section-left-side h2 {
+  font-size: 70px;
+}
+
+.python-section {
+  width: 100%;
+  background-color: rgb(217, 238, 225);
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SQL-section {
+  background-color: rgb(150, 212, 212);
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sql-right-section,
+.python-right-section {
+  height: 23rem;
+}
+
+.output-SQL,
+.output-python {
+  height: 66%;
+}
+
+.all-language {
+  width: 100%;
+  background-color: rgb(40, 42, 53);
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.php {
+  width: 44%;
+  height: 20rem;
+  background-color: rgb(255, 192, 199);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.php>h2 {
+  font-size: 60px;
+}
+
+.php p {
+  color: rgb(58, 58, 58);
+  font-size: 18px;
+}
+
+.php * {
+  margin: 1.5rem 0px;
+}
+
+.php .learn-btn a {
+  background-color: rgb(58, 58, 58);
+  padding: 1rem 5rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.learn-btn a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.jQuery {
+  background-color: rgb(255, 244, 163);
+}
+
+.java {
+  background-color: rgb(243, 236, 234);
+}
+
+.cpp {
+  background-color: rgb(217, 238, 225);
+}
+
+.all-language * {
+  margin: 1rem;
+}
+
+.w3-css {
+  background-color: rgb(150, 212, 212);
+}
+
+.bootstarp {
+  background-color: rgb(231, 233, 235);
+}
+
+.C {
+  background-color: rgb(233, 177, 184);
+  height: 8rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.C h2 {
+  font-size: 28px;
+}
+
+.cs {
+  background-color: rgb(239, 229, 152);
+  height: 8rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.cs h2 {
+  font-size: 28px;
+}
+
+.cs:hover {
+  background-color: rgb(255, 244, 163);
+}
+
+.C:hover {
+  background-color: rgb(248, 195, 201);
+}
+
+.wisp-pink,
+.w1 {
+  background-color: rgb(243, 236, 234);
+}
+
+.wisp-pink,
+.w1:hover {
+  background-color: rgb(188, 169, 164);
+}
+
+.swans-down,
+.wisp-pink,
+.bermuda,
+.blossom,
+.pale-prim {
+  font-size: 28px;
+  width: 20%;
+  height: 8.5rem;
+  cursor: pointer;
+}
+
+.swans-down,
+.s1 {
+  background-color: rgb(217, 238, 225);
+}
+
+.swans-down,
+.s1:hover {
+  background-color: rgb(237, 247, 241);
+}
+
+.bermuda,
+.b2 {
+  background-color: rgb(139, 195, 196);
+}
+
+.bermuda,
+.b2:hover {
+  background-color: rgb(192, 248, 249);
+}
+
+.blossom,
+.b1 {
+  background-color: rgb(233, 177, 184);
+}
+
+.blossom,
+.b1:hover {
+  background-color: rgb(253, 202, 208);
+}
+
+.pale-prim {
+  background-color: rgb(232, 222, 148);
+}
+
+.pale-prim:hover {
+  background-color: rgb(255, 247, 183);
+}
+
+.code-editor {
+  width: 100%;
+  padding: 5rem;
+  background-color: rgb(40, 42, 53);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.image-header {
+  border-radius: 7px;
+  background-color: rgb(241, 241, 241);
+}
+
+.window-button {
+  padding-left: 10px;
+  float: left;
+  padding-top: 10px;
+}
+
+.window-button::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.window-button>span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  margin-left: 1px;
+}
+
+.span1 {
+  background-color: rgb(242, 79, 79);
+}
+
+.span2 {
+  background-color: rgb(255, 213, 0);
+}
+
+.span3 {
+  background-color: rgb(0, 226, 26);
+}
+
+.code-editor h3 {
+  font-size: 70px;
+  margin: 1rem 0px;
+}
+
+.code-editor>p {
+  font-size: 25px;
+  margin: 1.5rem 0px;
+}
+
+.img {
+  width: 4rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.editor-btn a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 1rem;
+  border-radius: 10px;
+  margin: 10px 0px;
+  width: auto;
+}
+
+.editor-btn {
+  align-self: flex-start;
+}
+
+.btn1 a {
+  background-color: rgb(4, 170, 109);
+}
+
+.btn2 a {
+  background-color: rgb(232, 222, 148);
+  color: black;
+}
+
+.address-bar p {
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+  width: 70%;
+  font-size: 13px;
+  padding-left: 3px;
+  border-radius: 3px;
+  margin: 0px auto;
+}
+
+.address-bar {
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.f-b {
+  margin-top: 10px;
+}
+
+.front-end {
+  display: inline-block;
+  padding: 10px 1rem;
+  color: black;
+  background-color: rgb(232, 232, 232);
+}
+
+.back-end {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+.front-end:hover {
+  background-color: rgb(224, 223, 223);
+  cursor: pointer;
+}
+
+.back-end:hover {
+  background-color: rgb(224, 223, 223);
+  cursor: pointer;
+}
+
+.W3Schools-Spaces {
+  background: linear-gradient(rgba(40, 42, 53, 0.6), rgba(40, 42, 53, 0.6)), url("images/priscilla-du-preez-XkKCui44iM0-unsplash.921aa0c0.jpg") center center / cover no-repeat fixed;
+  color: white;
+  text-align: center;
+}
+
+.how-it-work {
+  background-color: rgb(40, 42, 53);
+  width: 100%;
+  opacity: 0.8;
+  padding: 5rem;
+}
+
+.how-it-work>h3 {
+  font-size: 66px;
+  margin-bottom: 2.5rem;
+}
+
+.how-it-work>p {
+  font-size: 26px;
+  margin-bottom: 2rem;
+}
+
+.get-start-btn a {
+  padding: 1rem 5rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  text-decoration: none;
+  background-color: rgb(4, 170, 109);
+  margin-bottom: 2rem;
+}
+
+.get-start-btn a:hover {
+  background-color: rgb(4, 133, 86);
+}
+
+.get-start-btn {
+  margin-bottom: 2rem;
+}
+
+.color-picker {
+  padding: 5rem;
+  text-align: center;
+}
+
+.color-picker h3 {
+  font-size: 66px;
+  margin-bottom: 2rem;
+}
+
+.color-picker p {
+  font-size: 26px;
+  margin-bottom: 2rem;
+}
+
+.color-picker img:hover {
+  opacity: 0.7;
+}
+
+.code-game {
+  background-color: rgb(150, 212, 212);
+  text-align: center;
+  padding: 5rem;
+}
+
+.code-game h3 {
+  font-size: 48px;
+  font-family: "Freckle Face", cursive;
+  margin-bottom: 1rem;
+}
+
+.code-game p {
+  font-size: 30px;
+  font-family: "Freckle Face", cursive;
+  margin-bottom: 2rem;
+}
+
+.code-game img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.play-game-btn {
+  margin-top: 2rem;
+}
+
+.play-game-btn a {
+  background-color: rgb(58, 58, 58);
+  padding: 10px 1.5rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.play-game-btn a:hover {
+  background-color: rgb(28, 29, 38);
+}
+
+.exercise {
+  background: url("images/w3codes.png") center center / cover no-repeat fixed;
+  padding: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.exercises-container {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.exercise h3 {
+  font-size: 48px;
+  margin-bottom: 1.5rem;
+}
+
+.exercises-div,
+.quizzes-div {
+  width: 25rem;
+  margin: 2rem;
+}
+
+.exercises-div {
+  background-color: rgb(4, 170, 109);
+}
+
+.web-template {
+  background-color: rgb(231, 233, 235);
+  padding: 5rem;
+  text-align: center;
+}
+
+.web-template h3 {
+  font-size: 48px;
+  margin-bottom: 1.4rem;
+}
+
+.web-template img {
+  width: 70%;
+  margin: 2rem;
+}
+
+.brows-template-btn a {
+  background-color: rgb(58, 58, 58);
+  padding: 17px 15rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.brows-template-btn a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.how-to-section {
+  padding: 5rem;
+}
+
+.how-to-section>h3 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.how-to-section>p:first-of-type {
+  font-size: 20px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.how-to-section>p:last-of-type {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.how-to p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.slide-show {
+  width: 70%;
+  margin: auto;
+}
+
+.slide-image {
+  width: 100%;
+  height: fit-content;
+}
+
+hr {
+  background-color: white;
+}
+
+.slide-image img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.dot-button {
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+}
+
+.dot-button>span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  margin-left: 1px;
+  background-color: rgb(223, 223, 223);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.dot-button span:hover {
+  background-color: gray;
+}
+
+.danta {
+  width: 3rem;
+  height: 5rem;
+  background-color: rgb(71, 63, 60);
+  margin: auto;
+}
+
+.learn-how-to-btn {
+  width: fit-content;
+  margin: auto;
+}
+
+.learn-how-to-btn a {
+  background-color: rgb(71, 63, 60);
+  padding: 17px 8rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.learn-how-to-btn a:hover {
+  background-color: rgb(5, 151, 98);
+}
+
+.career {
+  background-color: rgb(40, 42, 53);
+  padding: 5rem 3rem;
+  position: relative;
+}
+
+.career>p {
+  color: rgb(195, 145, 145);
+  font-size: 50px;
+  padding: 3rem;
+}
+
+#w3_cert_arrow {
+  width: 220px;
+  transform: rotate(10deg);
+  position: absolute;
+  bottom: 0;
+  right: 240px;
+  z-index: 10;
+}
+
+#w3_cert_badge {
+  width: 220px;
+  float: right;
+  position: absolute;
+  right: 5%;
+  transform: rotate(10deg);
+  bottom: -15%;
+}
+
+.one-btn {
+  margin: 2rem 3rem;
+}
+
+.one-btn a {
+  padding: 1rem 2rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  text-decoration: none;
+  background-color: rgb(4, 170, 109);
+}
+
+.one-btn a:hover {
+  background-color: rgb(2, 143, 91);
+}
+
+#caption-text {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -3rem;
+  font-weight: normal;
+}
+
+#counter-image {
+  color: white;
+  position: relative;
+  top: 2rem;
+  left: 1rem;
+  font-weight: normal;
+}
+
+footer {
+  background-color: #282A35;
+  padding: 3rem;
+}
+
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.left ul li {
+  float: left;
+  margin: 5px;
+}
+
+.left ul li a {
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+.forum p {
+  color: white;
+  letter-spacing: 4px;
+}
+
+.forum p a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.forum p a:hover {
+  color: rgb(50, 132, 50);
+}
+
+.icons {
+  float: right;
+}
+
+.icons a {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.icons a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.small {
+  color: white;
+  text-align: center;
+  margin: 2rem auto;
+  display: inline-block;
+}
+
+.small small a {
+  color: white;
+}
+
+.small small a:hover {
+  color: rgb(4, 170, 109)
+}
+
+.like {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
